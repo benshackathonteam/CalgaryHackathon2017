@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3765EDE61FC13CB500470667 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3765EDE51FC13CB500470667 /* Podfile */; };
+		3765EDE81FC14A5800470667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765EDE71FC14A5800470667 /* ViewController.swift */; };
 		4347D27E1FC0E5CC002880F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347D27D1FC0E5CC002880F6 /* AppDelegate.swift */; };
 		4347D2801FC0E5CC002880F6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347D27F1FC0E5CC002880F6 /* RootViewController.swift */; };
 		4347D2821FC0E5CC002880F6 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347D2811FC0E5CC002880F6 /* DataViewController.swift */; };
@@ -38,7 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3765EDE51FC13CB500470667 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		3765EDE51FC13CB500470667 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3765EDE71FC14A5800470667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4347D27A1FC0E5CC002880F6 /* Launchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Launchpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4347D27D1FC0E5CC002880F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4347D27F1FC0E5CC002880F6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				4347D2881FC0E5CC002880F6 /* Assets.xcassets */,
 				4347D28A1FC0E5CC002880F6 /* LaunchScreen.storyboard */,
 				4347D28D1FC0E5CC002880F6 /* Info.plist */,
+				3765EDE71FC14A5800470667 /* ViewController.swift */,
 			);
 			path = Launchpad;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3765EDE81FC14A5800470667 /* ViewController.swift in Sources */,
 				4347D2801FC0E5CC002880F6 /* RootViewController.swift in Sources */,
 				4347D2841FC0E5CC002880F6 /* ModelController.swift in Sources */,
 				4347D2821FC0E5CC002880F6 /* DataViewController.swift in Sources */,
@@ -522,7 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 698AUM3J2S;
+				DEVELOPMENT_TEAM = EUL7UYLX84;
 				INFOPLIST_FILE = Launchpad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = launchpad.Launchpad;
@@ -538,7 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 698AUM3J2S;
+				DEVELOPMENT_TEAM = EUL7UYLX84;
 				INFOPLIST_FILE = Launchpad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = launchpad.Launchpad;

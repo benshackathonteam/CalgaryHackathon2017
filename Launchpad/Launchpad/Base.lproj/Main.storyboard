@@ -92,6 +92,21 @@
             </objects>
             <point key="canvasLocation" x="597" y="-243"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="FtQ-wC-mXI">
+            <objects>
+                <viewController id="YsZ-oB-dS7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kMf-hC-tGT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EpN-sJ-iPn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jJA-ND-54a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1302" y="-243"/>
+        </scene>
     </scenes>
     <resources>
         <image name="launchpadlogo1" width="210" height="208"/>
