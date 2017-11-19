@@ -41,6 +41,10 @@ class DataViewController: UIViewController {
 
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
+    
+    @IBOutlet weak var EmployeeNumFeeback: UILabel!
+    
+    @IBOutlet weak var CustomSquareFootage: UITextField!
 
 
     override func viewDidLoad() {
@@ -67,6 +71,34 @@ class DataViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
+    
+    @IBAction func EmployeeNum(_ sender: UISegmentedControl) {
+        //print(sender.selectedSegmentIndex)
+        if (sender.selectedSegmentIndex == 0){
+            EmployeeNumFeeback.text = "Our best guess says you might need about 500 square feet. How does that sound?"
+            EmployeesMax = 5
+            SquareFootage = 500
+        }
+        else if (sender.selectedSegmentIndex == 1){
+            EmployeeNumFeeback.text = "Our best guess says you might need about 1000 square feet. How does that sound?"
+            EmployeesMax = 10
+            SquareFootage = 1000
+        }
+        else if (sender.selectedSegmentIndex == 2){
+            EmployeeNumFeeback.text = "Our best guess says you might need about 1500 square feet. How does that sound?"
+            EmployeesMax = 15
+            SquareFootage = 1500
+        }
+    }
+    
+    @IBAction func ChangeSquareFootage(_ sender: UIButton) {
+        SquareFootage = (CustomSquareFootage.text as! NSString).integerValue
+    }
+    
+    @IBAction func Tap(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
+
     
     func loadRecreationFacilitiesTable(){
         let file = "Recreation_Facilities"
