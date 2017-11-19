@@ -15,6 +15,14 @@ class MapViewController: UIViewController {
     // You don't need to modify the default init(nibName:bundle:) method.
     var mapView = GMSMapView()
     
+    func addMarker(latitude:Double, longtitude:Double, title:String, snippet:String) {
+        let marker = GMSMarker()
+        marker.position = CLLocationCoordinate2D(latitude: latitude, longitude: longtitude)
+        marker.title = title
+        marker.snippet = snippet
+        marker.map = mapView
+    }
+    
     override func loadView() {
         // Create a GMSCameraPosition that tells the map to display the
         // coordinate -33.86,151.20 at zoom level 6.
@@ -42,22 +50,33 @@ class MapViewController: UIViewController {
         marker.title = "Calgary"
         marker.snippet = "Alberta"
         marker.map = mapView
-*/
+
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: LRTTable[0].latitude, longitude: LRTTable[0].longitude)
         marker.title = "Calgary"
         marker.snippet = "Alberta"
         marker.map = mapView
+*/
+        
+        var squareFootageMin: Double = Double(EmployeesMax) * 250.0;
+        var i:Int
+        var MarkerTable: [element] = []
 
+    
+        for i in 0...RentFasterTable.count - 1 {
+            if RentFasterTable[i].Square_Feet > squareFootageMin {
+                var tmp = element(name: RentFasterTable[i].name, longitude: RentFasterTable[i].longitude, latitude: RentFasterTable[i].latitude)
+                MarkerTable.append(tmp)
+            }
+        }
+        
+        for i in 0 ... MarkerTable.count - 1 {
+            addMarker(latitude: MarkerTable[i].latitude, longtitude: MarkerTable[i].longitude, title: MarkerTable[i].name, snippet: MarkerTable[i].name)
+        }
+            
     }
     
     
     
-    func addMarker(latitude:Double, longtitude:Double, title:String, snippet:String) {
-        let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2D(latitude: latitude, longitude: longtitude)
-        marker.title = title
-        marker.snippet = snippet
-        marker.map = mapView
-    }
+
 }
