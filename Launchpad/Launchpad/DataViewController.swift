@@ -18,6 +18,8 @@ struct element {
 
 var EmployeesMax:Int = 0
 var SquareFootage:Int = 0
+var RentDollars:Int = 0
+var RentEquity:Int = 0
 
 var RecreationFacilitiesTable: [element] = []
 var BusStopsTable: [element] = []
@@ -46,7 +48,10 @@ class DataViewController: UIViewController {
     
     @IBOutlet weak var CustomSquareFootage: UITextField!
 
-
+    @IBOutlet weak var Dollars: UITextField!
+    
+    @IBOutlet weak var Equity: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -293,7 +298,11 @@ class DataViewController: UIViewController {
         }
     }
     
-
+    @IBAction func SubmitRent(_ sender: UIButton) {
+        //RentDollars = Int(Dollars.text)
+        //RentEquity = Int(Equity.text)
+    }
+    
 
 }
 
