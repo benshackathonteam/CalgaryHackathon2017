@@ -16,6 +16,9 @@ struct element {
     var latitude: Double
 }
 
+var EmployeesMax:Int = 0
+var SquareFootage:Int = 0
+
 var RecreationFacilitiesTable: [element] = []
 var BusStopsTable: [element] = []
 var CalgaryBusinessLicensesMapTable: [element] = []
