@@ -9,6 +9,7 @@
 
 import UIKit
 import GoogleMaps
+import CoreLocation
 
 class MapViewController: UIViewController {
     
@@ -61,12 +62,16 @@ class MapViewController: UIViewController {
         var squareFootageMin: Double = Double(EmployeesMax) * 250.0;
         var i:Int
         var MarkerTable: [element] = []
+        var point1 = CLLocation(latitude: 51.060931, longitude: -114.065158)
 
     
         for i in 0...RentFasterTable.count - 1 {
             if RentFasterTable[i].Square_Feet > squareFootageMin {
-                var tmp = element(name: RentFasterTable[i].name, longitude: RentFasterTable[i].longitude, latitude: RentFasterTable[i].latitude)
-                MarkerTable.append(tmp)
+                var point2 = CLLocation(latitude: RentFasterTable[i].latitude, longitude: RentFasterTable[i].longitude)
+                if DistanceInMeter(point1: point1, point2: point2) < 5000 {
+                    var tmp = element(name: RentFasterTable[i].name, longitude: RentFasterTable[i].longitude, latitude: RentFasterTable[i].latitude)
+                    MarkerTable.append(tmp)
+                }
             }
         }
         
@@ -77,6 +82,10 @@ class MapViewController: UIViewController {
     }
     
     
-    
+    func DistanceInMeter(point1: CLLocation, point2: CLLocation) -> Double {
+        let distanceInMeters = point1.distance(from: point2)
+        return distanceInMeters
+    }
+
 
 }
