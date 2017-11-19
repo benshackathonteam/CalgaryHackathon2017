@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375D49F11FC203FE00E248BF /* Food Services-Table 1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49E81FC203FD00E248BF /* Food Services-Table 1.csv */; };
+		375D49F21FC203FE00E248BF /* Bus Stops-Table 1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49E91FC203FD00E248BF /* Bus Stops-Table 1.csv */; };
+		375D49F31FC203FE00E248BF /* RentFaster Entries-Table 1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49EA1FC203FD00E248BF /* RentFaster Entries-Table 1.csv */; };
+		375D49F41FC203FE00E248BF /* Secondary Suites-Table 1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49EB1FC203FD00E248BF /* Secondary Suites-Table 1.csv */; };
+		375D49F51FC203FE00E248BF /* Recreational Facilities-Table 1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49EC1FC203FE00E248BF /* Recreational Facilities-Table 1.csv */; };
+		375D49F61FC203FE00E248BF /* Calgary_Business_Licenses_Map.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49ED1FC203FE00E248BF /* Calgary_Business_Licenses_Map.csv */; };
+		375D49F71FC203FE00E248BF /* LRT-Table 1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49EE1FC203FE00E248BF /* LRT-Table 1.csv */; };
+		375D49F81FC203FE00E248BF /* stops.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49EF1FC203FE00E248BF /* stops.csv */; };
+		375D49F91FC203FE00E248BF /* practice-Table 1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49F01FC203FE00E248BF /* practice-Table 1.csv */; };
+		375D49FB1FC2057600E248BF /* Recreation_Facilities.csv in Resources */ = {isa = PBXBuildFile; fileRef = 375D49FA1FC2057600E248BF /* Recreation_Facilities.csv */; };
 		3765EDE61FC13CB500470667 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3765EDE51FC13CB500470667 /* Podfile */; };
 		3765EDE81FC14A5800470667 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765EDE71FC14A5800470667 /* MapViewController.swift */; };
 		3765EDEA1FC155EB00470667 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 3765EDE91FC155EB00470667 /* Podfile.lock */; };
@@ -41,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		375D49E81FC203FD00E248BF /* Food Services-Table 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Food Services-Table 1.csv"; sourceTree = "<group>"; };
+		375D49E91FC203FD00E248BF /* Bus Stops-Table 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bus Stops-Table 1.csv"; sourceTree = "<group>"; };
+		375D49EA1FC203FD00E248BF /* RentFaster Entries-Table 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "RentFaster Entries-Table 1.csv"; sourceTree = "<group>"; };
+		375D49EB1FC203FD00E248BF /* Secondary Suites-Table 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Secondary Suites-Table 1.csv"; sourceTree = "<group>"; };
+		375D49EC1FC203FE00E248BF /* Recreational Facilities-Table 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Recreational Facilities-Table 1.csv"; sourceTree = "<group>"; };
+		375D49ED1FC203FE00E248BF /* Calgary_Business_Licenses_Map.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Calgary_Business_Licenses_Map.csv; sourceTree = "<group>"; };
+		375D49EE1FC203FE00E248BF /* LRT-Table 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LRT-Table 1.csv"; sourceTree = "<group>"; };
+		375D49EF1FC203FE00E248BF /* stops.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.csv; sourceTree = "<group>"; };
+		375D49F01FC203FE00E248BF /* practice-Table 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "practice-Table 1.csv"; sourceTree = "<group>"; };
+		375D49FA1FC2057600E248BF /* Recreation_Facilities.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Recreation_Facilities.csv; sourceTree = "<group>"; };
 		3765EDE51FC13CB500470667 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3765EDE71FC14A5800470667 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3765EDE91FC155EB00470667 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
@@ -94,6 +114,16 @@
 		4347D2711FC0E5CC002880F6 = {
 			isa = PBXGroup;
 			children = (
+				375D49FA1FC2057600E248BF /* Recreation_Facilities.csv */,
+				375D49E91FC203FD00E248BF /* Bus Stops-Table 1.csv */,
+				375D49ED1FC203FE00E248BF /* Calgary_Business_Licenses_Map.csv */,
+				375D49E81FC203FD00E248BF /* Food Services-Table 1.csv */,
+				375D49EE1FC203FE00E248BF /* LRT-Table 1.csv */,
+				375D49F01FC203FE00E248BF /* practice-Table 1.csv */,
+				375D49EC1FC203FE00E248BF /* Recreational Facilities-Table 1.csv */,
+				375D49EA1FC203FD00E248BF /* RentFaster Entries-Table 1.csv */,
+				375D49EB1FC203FD00E248BF /* Secondary Suites-Table 1.csv */,
+				375D49EF1FC203FE00E248BF /* stops.csv */,
 				4365EB8E1FC168D30009F397 /* style.json */,
 				3765EDE91FC155EB00470667 /* Podfile.lock */,
 				3765EDE51FC13CB500470667 /* Podfile */,
@@ -277,12 +307,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375D49F21FC203FE00E248BF /* Bus Stops-Table 1.csv in Resources */,
 				4347D28C1FC0E5CC002880F6 /* LaunchScreen.storyboard in Resources */,
 				4347D2891FC0E5CC002880F6 /* Assets.xcassets in Resources */,
+				375D49F71FC203FE00E248BF /* LRT-Table 1.csv in Resources */,
+				375D49F81FC203FE00E248BF /* stops.csv in Resources */,
+				375D49F31FC203FE00E248BF /* RentFaster Entries-Table 1.csv in Resources */,
 				3765EDEA1FC155EB00470667 /* Podfile.lock in Resources */,
 				4365EB8F1FC168D30009F397 /* style.json in Resources */,
+				375D49F91FC203FE00E248BF /* practice-Table 1.csv in Resources */,
+				375D49F51FC203FE00E248BF /* Recreational Facilities-Table 1.csv in Resources */,
 				3765EDE61FC13CB500470667 /* Podfile in Resources */,
+				375D49FB1FC2057600E248BF /* Recreation_Facilities.csv in Resources */,
+				375D49F41FC203FE00E248BF /* Secondary Suites-Table 1.csv in Resources */,
+				375D49F61FC203FE00E248BF /* Calgary_Business_Licenses_Map.csv in Resources */,
 				4347D2871FC0E5CC002880F6 /* Main.storyboard in Resources */,
+				375D49F11FC203FE00E248BF /* Food Services-Table 1.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
