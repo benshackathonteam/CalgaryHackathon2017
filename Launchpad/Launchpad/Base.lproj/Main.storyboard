@@ -101,10 +101,10 @@
             </objects>
             <point key="canvasLocation" x="597" y="-243"/>
         </scene>
-        <!--Map View Controller-->
+        <!--View Controller-->
         <scene sceneID="FtQ-wC-mXI">
             <objects>
-                <viewController storyboardIdentifier="MapViewController" id="YsZ-oB-dS7" customClass="MapViewController" customModule="Launchpad" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" id="YsZ-oB-dS7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kMf-hC-tGT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -405,10 +405,10 @@
             </objects>
             <point key="canvasLocation" x="4003" y="-617"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="nkx-SS-ryh">
             <objects>
-                <viewController id="ids-SS-qVN" customClass="ViewController" customModule="Launchpad" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ids-SS-qVN" customClass="MapViewController" customModule="Launchpad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lv3-0p-pve">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
