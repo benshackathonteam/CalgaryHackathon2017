@@ -10,7 +10,7 @@
 import UIKit
 import GoogleMaps
 
-class ViewController: UIViewController {
+class MapViewController: UIViewController {
     
     // You don't need to modify the default init(nibName:bundle:) method.
     
