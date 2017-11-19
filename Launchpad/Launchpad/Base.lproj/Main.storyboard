@@ -345,8 +345,6 @@
                     <connections>
                         <outlet property="Dollars" destination="U7z-Wn-wtk" id="fKr-4E-hbY"/>
                         <outlet property="Equity" destination="6rr-tO-3E7" id="Ou0-QS-vCo"/>
-                        <outlet property="RentDollars" destination="U7z-Wn-wtk" id="1Xv-Va-Y7x"/>
-                        <outlet property="RentEquity" destination="6rr-tO-3E7" id="0ul-IA-eIm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lUo-tY-Ltl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -527,6 +525,6 @@
         <image name="launchpadlogo1" width="210" height="208"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ggz-ga-Ryc"/>
+        <segue reference="bMf-C9-e9C"/>
     </inferredMetricsTieBreakers>
 </document>
