@@ -20,6 +20,19 @@ class MapViewController: UIViewController {
         // coordinate -33.86,151.20 at zoom level 6.
         let camera = GMSCameraPosition.camera(withLatitude: 51.0486151, longitude: -114.0708459, zoom: 10.0)
         mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        
+        //styling to match app
+        do {
+            // Set the map style by passing the URL of the local file.
+            if let styleURL = Bundle.main.url(forResource: "style", withExtension: "json") {
+                mapView.mapStyle = try GMSMapStyle(contentsOfFileURL: styleURL)
+            } else {
+                NSLog("Unable to find style.json")
+            }
+        } catch {
+            NSLog("One or more of the map styles failed to load. \(error)")
+        }
+        
         view = mapView
         
 /*
@@ -31,6 +44,8 @@ class MapViewController: UIViewController {
         marker.map = mapView
 */
     }
+    
+    
     
     func addMarker(latitude:Double, longtitude:Double, title:String, snippet:String) {
         let marker = GMSMarker()
